@@ -1,0 +1,70 @@
+{
+    "title": "markdown—ßœ∞± º«",
+    "author": "LjessonS",
+
+    "plugins": [
+        "-sharing",
+        "sharing-plus",
+        "localized-footer",
+        "include-codeblock",
+        "ace",
+        "-lunr",
+        "-search",
+        "search-pro",
+        "collapsible-menu",
+        "-livereload",
+        "toc"        
+    ],
+
+    "pluginsConfig":
+    {
+        "theme-default":
+        {
+            "showLevel": true
+        },
+        "sharing":
+        {
+            "douban": false,
+            "facebook": false,
+            "google": false,
+            "hatenaBookmark": false,
+            "instapaper": false,
+            "line": false,
+            "linkedin": false,
+            "messenger": false,
+            "pocket": false,
+            "qq": true,
+            "qzone": true,
+            "stumbleupon": false,
+            "twitter": false,
+            "viber": false,
+            "vk": false,
+            "weibo": true,
+            "whatsapp": false,
+            "all": [
+                "facebook", "google", "twitter",
+                "weibo", "qq", "linkedin",
+                "qzone", "douban"
+            ]
+        },
+
+        "localized-footer":
+        {
+            "hline": true,
+            "filename": "./FOOTER.md"
+        },
+
+        "include-codeblock":
+        {
+            "template": "ace",
+            "unindent": true,
+            "edit": false
+        },
+        
+        "toc": 
+        {
+            "addClass": true,
+            "className": "toc"
+        }
+    }
+}
